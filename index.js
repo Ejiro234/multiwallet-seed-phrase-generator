@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const { getWordList } = require("seed-phrase-wordlist");
 
-function generatePassPhrase() {
+function generateSeedPhrase() {
   try {
     return {
       12: _.sampleSize(getWordList(), 12),
@@ -13,4 +13,4 @@ function generatePassPhrase() {
   }
 }
 
-module.exports = { generatePassPhrase };
+module.exports = { generateSeedPhrase };

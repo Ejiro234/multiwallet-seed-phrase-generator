@@ -1,7 +1,7 @@
 ````markdown
-# Passphrase Generator
+# Seedphrase Generator
 
-This package provides a utility to generate passphrases of different lengths using a custom wordlist.
+This package provides a utility to generate seedphrases of different lengths using a custom wordlist.
 
 ## Installation
 
@@ -10,32 +10,32 @@ Before using the package, make sure you have Node.js installed on your system.
 You can install the package via npm:
 
 ```bash
-npm install pass-phrase-generator
+npm install seed-phrase-generator
 ```
 ````
 
 ## Usage
 
 ```javascript
-const { generatePassPhrase } = require("passphrase-generator");
+const { generateSeedPhrase } = require("seed-phrase-generator");
 
-// Generate passphrases of different lengths
-const passphrases = generatePassPhrase();
+// Generate seedphrases of different lengths
+const seedphrases = generateSeedPhrase();
 
-console.log(passphrases);
+console.log(seedphrases);
 ```
 
 ## API
 
-### `generatePassPhrase()`
+### `generateSeedPhrase()`
 
-Generates passphrases of different lengths using a custom wordlist.
+Generates seedphrases of different lengths using a custom wordlist.
 
-- Returns an object containing passphrases of lengths 12, 18, and 24.
+- Returns an object containing seedphrases of lengths 12, 18, and 24.
 
 ## Error Handling
 
-If an error occurs during passphrase generation, an error object will be returned.
+If an error occurs during seedphrase generation, an error object will be returned.
 
 ## Contributing
 

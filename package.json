@@ -1,26 +1,26 @@
 {
-  "name": "pass-phrase-generator",
+  "name": "seed-phrase-generator",
   "version": "1.0.0",
-  "description": "A simple pass phrase generator package",
+  "description": "A simple seed phrase generator package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "passphrase",
+    "seedphrase",
     "generator",
     "security"
   ],
-  "author": "Your Name",
+  "author": "Ejiro234",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/pass-phrase-generator.git"
+    "url": "git+https://github.com/Ejiro234/seed-phrase-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/pass-phrase-generator/issues"
+    "url": "https://github.com/Ejiro234/seed-phrase-generator/issues"
   },
-  "homepage": "https://github.com/yourusername/pass-phrase-generator",
+  "homepage": "https://github.com/Ejiro234/seed-phrase-generator",
   "dependencies": {
     "lodash": "^4.17.21",
     "seed-phrase-wordlist": "^1.0.0"
