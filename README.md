@@ -1,5 +1,5 @@
 ````markdown
-# Seedphrase Generator
+# Multiwallet Seedphrase Generator
 
 This package provides a utility to generate seedphrases of different lengths using a custom wordlist.
 
@@ -17,7 +17,7 @@ npm install seed-phrase-generator
 ## Usage
 
 ```javascript
-const { generateSeedPhrase } = require("seed-phrase-generator");
+const { generateSeedPhrase } = require("multiwallet-seed-phrase-generator");
 
 // Generate seedphrases of different lengths
 const seedphrases = generateSeedPhrase();

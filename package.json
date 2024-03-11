@@ -1,5 +1,5 @@
 {
-  "name": "seed-phrase-generator",
+  "name": "multiwallet-seed-phrase-generator",
   "version": "1.0.0",
   "description": "A simple seed phrase generator package",
   "main": "index.js",
